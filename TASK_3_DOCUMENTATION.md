@@ -1,51 +1,52 @@
-Task 3: Documentation
-1. What I Did
+# Task 3: Documentation – AI Agent Collaboration Insights
 
-Updated the agent rules file (copilot-instructions.md) to clearly define how the AI agent should collaborate with me.
+## Overview
 
-Added explicit constraints and expectations to guide the agent’s reasoning, structure, and output quality.
+This task documents how I configured, tested, and refined an AI coding agent using MCP tools and structured rules.  
+The focus was not only on what was built, but how clear rules and constraints shaped the agent’s behavior, reasoning depth, and collaboration quality.
 
-Guided the agent to restructure a Node.js project using a clean, maintainable architecture.
+---
 
-Explicitly instructed the agent to scaffold files using Express and JavaScript (not TypeScript).
+## 1. What I Did
 
-Iterated on prompts based on agent responses to improve clarity, structure, and alignment with production-ready standards.
+- Refined the AI agent rules file (`copilot-instructions.md`) to explicitly define collaboration style, expectations, and constraints.
+- Introduced clear guidelines to control the agent’s reasoning, structure, and output quality.
+- Guided the agent to restructure a Node.js project using a clean and maintainable architecture.
+- Explicitly instructed the agent to scaffold files using Express and JavaScript (not TypeScript).
+- Iteratively refined prompts based on agent feedback to improve clarity, precision, and production readiness.
 
-2. What Worked
+---
 
-The agent asked clarifying questions when rules and constraints were clearly defined.
+## 2. What Worked Well
 
-The agent proposed a maintainable and scalable project architecture once expectations were explicit.
+- Clearly defined rules encouraged the agent to ask clarifying questions instead of making assumptions.
+- Once expectations were explicit, the agent proposed a scalable and maintainable project architecture.
+- Structured rules significantly improved response quality, consistency, and reasoning depth.
+- Breaking work into clear phases (scaffolding first, documentation later) improved collaboration flow.
+- Explicit constraints (framework, language choice, level of completeness) reduced ambiguity and rework.
 
-Well-written rules significantly improved response quality, consistency, and reasoning depth.
+---
 
-Breaking work into clear tasks (scaffolding first, documentation later) improved collaboration flow.
+## 3. What Didn’t Work
 
-Explicit instructions (framework, language, minimal but production-ready) reduced ambiguity.
+- The initial repository lacked structure, which led to generic or unfocused agent responses.
+- Without explicit direction, the agent hesitated to scaffold files autonomously.
+- High-level prompts without constraints (for example, “set up the project”) resulted in weaker outputs.
+- The agent required deliberate nudging to move from discussion into concrete implementation.
 
-3. What Didn’t Work
+---
 
-The initial repository lacked clear structure, which caused vague or generic agent outputs.
+## 4. Insights Gained
 
-Without explicit direction, the agent hesitated to scaffold files autonomously.
+- AI agent rules strongly influence reasoning depth, initiative, and output quality.
+- Explicit constraints (what to use, what to avoid, and how complete the output should be) dramatically improve results.
+- Clear task boundaries (Task 2 vs Task 3) prevent premature stopping or confusion.
+- Iterative collaboration produces better outcomes than one-shot prompting.
+- Treating the AI agent like a junior engineer by providing structure, feedback, and direction leads to higher-quality engineering results.
 
-High-level prompts without constraints (e.g., “set up the project”) produced weaker results.
+---
 
-The agent required deliberate nudging to move from discussion into concrete file generation.
+## Final Reflection
 
-4. Insights Gained
-
-Agent rules strongly influence reasoning depth, initiative, and output quality.
-
-Explicit constraints (what to use, what to avoid, level of completeness) dramatically improve results.
-
-Clear task boundaries (Task 2 vs Task 3) prevent premature stopping or confusion.
-
-AI agent collaboration improves significantly through iteration rather than one-shot prompts.
-
-Treating the agent like a junior collaborator—by giving structure, feedback, and direction—leads to better engineering outcomes.
-
-Final Reflection
-
-This exercise demonstrated that AI agents are only as effective as the rules and guidance they receive.
-Well-defined instructions transform the agent from a passive responder into an active, structured collaborator.
+This exercise reinforced that AI agents are only as effective as the rules that guide them.  
+Well-defined instructions transform an agent from a passive responder into an active, structured collaborator capable of producing production-ready outputs.
