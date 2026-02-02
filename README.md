@@ -45,3 +45,5 @@ Documented:
 ├── CLAUDE.md
 ├── README.md
 ├── TASK_3_DOCUMENTATION.md
+
+See EXPERIMENT_NOTES.md for brief rule iteration observations.

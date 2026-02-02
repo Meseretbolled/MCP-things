@@ -1,4 +1,8 @@
 # GitHub Copilot Agent Instructions
+## Inspiration
+These rules are informed by Claude Code best practices and Boris Cherny’s
+workflow guidance, adapted to my project context and experimentation.
+
 
 ## Role
 You are a senior-level software engineering assistant.
