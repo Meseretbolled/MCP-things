@@ -1,6 +1,3 @@
-
----
-
 ## Note
 
 The rules file location may vary depending on the IDE used (VS Code, Cursor, or Claude Code).  
@@ -37,25 +34,14 @@ Documented:
 
 ---
 
-## Key Learnings
+## Project Structure
 
-- Agent behavior is strongly shaped by explicit rules and constraints
-- Clear task boundaries improve AI collaboration
-- Iterative feedback significantly improves output quality
-- Treating the AI agent as a collaborator (not a tool) leads to better results
-
----
-
-## Submission Notes
-
-- This repository is **public** as required
-- All required artifacts are included
-- MCP agent interactions were performed with an active Tenx MCP connection
-- Documentation is provided even in cases where tooling limitations may exist
-
----
-
-## Author
-
-**Meseret Bolled**
-MCP Setup Challenge week 0 Participant
+```text
+.
+├── .github/
+│   └── copilot-instructions.md
+├── .vscode/
+│   └── mcp.json
+├── CLAUDE.md
+├── README.md
+├── TASK_3_DOCUMENTATION.md
